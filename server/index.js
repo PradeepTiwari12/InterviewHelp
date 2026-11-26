@@ -11,7 +11,8 @@ import interviewRouter from "./routes/interview.route.js";
 
 const app=express();
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:["http://localhost:5173",
+          "https://interviewhelp-scaa.onrender.com"],
   credentials:true
 }))
 
