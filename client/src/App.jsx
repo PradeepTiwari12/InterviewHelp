@@ -12,7 +12,7 @@ import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
 
-export const ServerUrl=import.meta.env.DEV?"http://localhost:8000":"https://interviewhelp-server.onrender.com";
+export const ServerUrl=import.meta.env.DEV?"http://localhost:8000":"";
 
 function App(){
 
